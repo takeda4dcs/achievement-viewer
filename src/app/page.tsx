@@ -81,7 +81,6 @@ export default function Home() {
   const makeTargetData = (origin: Map<string, Ticket>) => Array.from(origin.values());
 
   const changeMode = (mode: Modes) => {
-    // setMode(mode);
     document.getElementById("primary_container")?.setAttribute("class", mode);
   };
 
